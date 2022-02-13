@@ -1,0 +1,15 @@
+{
+  "name": "minecraft:village/savanna/houses13",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "location": "minecraft:village/savanna/houses/small_apartments_half_10",
+        "processors": "villages_overhauled:redsandstonify",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

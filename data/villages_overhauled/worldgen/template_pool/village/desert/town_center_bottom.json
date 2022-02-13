@@ -1,0 +1,15 @@
+{
+    "name": "villages_overhauled:village/desert/town_center_bottom",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 50,
+        "element": {
+          "location": "villages_overhauled:village/desert/town_center/desert_meeting_point_3b",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
