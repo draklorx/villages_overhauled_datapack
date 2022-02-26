@@ -1,9 +1,9 @@
 {
   "name": "minecraft:village/plains/houses",
-  "fallback": "minecraft:village/plains/terminators",
+  "fallback": "villages_overhauled:village/plains/small_houses",
   "elements": [
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/plains/houses/plains_small_house_1",
         "processors": "minecraft:empty",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/plains/houses/plains_small_house_2",
         "processors": "minecraft:empty",
@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/plains/houses/plains_small_house_3",
         "processors": "minecraft:empty",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/plains/houses/plains_small_house_4",
         "processors": "minecraft:empty",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/plains/houses/plains_small_house_5",
         "processors": "minecraft:empty",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/plains/houses/plains_small_house_6",
         "processors": "minecraft:empty",
@@ -57,18 +57,9 @@
       }
     },
     {
-      "weight": 2,
-      "element": {
-        "location": "minecraft:village/plains/houses/plains_small_house_7",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
       "weight": 1,
       "element": {
-        "location": "minecraft:village/plains/houses/plains_small_house_8",
+        "location": "minecraft:village/plains/houses/plains_small_house_7",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -183,7 +174,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/plains/houses/plains_library_1",
         "processors": "minecraft:empty",
@@ -192,7 +183,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 2,
       "element": {
         "location": "minecraft:village/plains/houses/plains_library_2",
         "processors": "minecraft:empty",
@@ -255,25 +246,61 @@
       }
     },
     {
-      "weight": 50,
+      "weight": 20,
       "element": {
         "location": "minecraft:village/plains/houses/plains_large_farm_1",
-        "processors": "minecraft:farm_plains",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 50,
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_large_farm_1",
+        "processors": "villages_overhauled:plains_farm_beets",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_large_farm_1",
+        "processors": "villages_overhauled:plains_farm_potatoes",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
       "element": {
         "location": "minecraft:village/plains/houses/plains_small_farm_1",
-        "processors": "minecraft:farm_plains",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 4,
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_small_farm_1",
+        "processors": "villages_overhauled:plains_farm_beets",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_small_farm_1",
+        "processors": "villages_overhauled:plains_farm_potatoes",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
       "element": {
         "location": "minecraft:village/plains/houses/plains_animal_pen_1",
         "processors": "minecraft:empty",
@@ -282,7 +309,7 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 2,
       "element": {
         "location": "minecraft:village/plains/houses/plains_animal_pen_2",
         "processors": "minecraft:empty",
@@ -291,7 +318,7 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 2,
       "element": {
         "location": "minecraft:village/plains/houses/plains_animal_pen_3",
         "processors": "minecraft:empty",
@@ -324,12 +351,6 @@
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:empty_pool_element"
       }
     }
   ]

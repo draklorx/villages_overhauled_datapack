@@ -30,11 +30,14 @@
           },
           {
             "output_state": {
-              "Name": "minecraft:stripped_acacia_wood"
+              "Name": "minecraft:stripped_acacia_wood",
+              "Properties": {
+                "axis": "z"
+              }
             },
             "input_predicate": {
               "block": "minecraft:smooth_red_sandstone",
-              "probability": 0.2,
+              "probability": 0.1,
               "predicate_type": "minecraft:random_block_match"
             },
             "location_predicate": {
@@ -43,7 +46,27 @@
           },
           {
             "output_state": {
-              "Name": "minecraft:acacia_slab"
+              "Name": "minecraft:stripped_acacia_wood",
+              "Properties": {
+                "axis": "x"
+              }
+            },
+            "input_predicate": {
+              "block": "minecraft:smooth_red_sandstone",
+              "probability": 0.1,
+              "predicate_type": "minecraft:random_block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            }
+          },
+          {
+            "output_state": {
+              "Name": "minecraft:acacia_slab",
+              "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+              }
             },
             "input_predicate": {
               "block": "minecraft:smooth_red_sandstone_slab",
