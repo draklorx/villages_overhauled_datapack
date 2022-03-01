@@ -1,6 +1,6 @@
 {
   "name": "minecraft:village/plains/decor",
-  "fallback": "villages_overhauled:village/plains/lamp",
+  "fallback": "villages_overhauled:village/plains/lamp_maybe",
   "elements": [
     {
       "weight": 1,

@@ -39,7 +39,7 @@
         }
       },
       {
-        "weight": 2,
+        "weight": 5,
         "element": {
           "location": "minecraft:village/plains/zombie/town_centers/plains_fountain_01",
           "processors": "minecraft:empty",
@@ -48,7 +48,7 @@
         }
       },
       {
-        "weight": 2,
+        "weight": 5,
         "element": {
           "location": "minecraft:village/plains/zombie/town_centers/plains_meeting_point_1",
           "processors": "minecraft:empty",
@@ -57,7 +57,7 @@
         }
       },
       {
-        "weight": 2,
+        "weight": 5,
         "element": {
           "location": "minecraft:village/plains/zombie/town_centers/plains_meeting_point_2",
           "processors": "minecraft:empty",
@@ -66,7 +66,7 @@
         }
       },
       {
-        "weight": 2,
+        "weight": 5,
         "element": {
           "location": "minecraft:village/plains/zombie/town_centers/plains_meeting_point_3",
           "processors": "minecraft:empty",

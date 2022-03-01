@@ -95,9 +95,7 @@
       {
         "weight": 4,
         "element": {
-          "feature": "minecraft:pile_hay",
-          "projection": "rigid",
-          "element_type": "minecraft:feature_pool_element"
+          "element_type": "minecraft:empty_pool_element"
         }
       }
     ]

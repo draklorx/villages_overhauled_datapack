@@ -1,9 +1,9 @@
 {
   "name": "minecraft:village/desert/houses",
-  "fallback": "minecraft:empty",
+  "fallback": "villages_overhauled:village/desert/small_houses",
   "elements": [
     {
-      "weight": 8,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_small_house_1",
         "processors": "villages_overhauled:sandstonify",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_small_house_2",
         "processors": "villages_overhauled:sandstonify",
@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_small_house_3",
         "processors": "villages_overhauled:sandstonify",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_small_house_4",
         "processors": "villages_overhauled:sandstonify",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_small_house_5",
         "processors": "villages_overhauled:sandstonify",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_small_house_6",
         "processors": "villages_overhauled:sandstonify",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_small_house_7",
         "processors": "villages_overhauled:sandstonify",
@@ -66,16 +66,16 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 1,
       "element": {
-        "location": "minecraft:village/desert/houses/desert_small_house_8",
+        "location": "minecraft:village/desert/houses/desert_small_house_2",
         "processors": "villages_overhauled:sandstonify",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 8,
+      "weight": 4,
       "element": {
         "location": "minecraft:village/desert/houses/desert_medium_house_1",
         "processors": "villages_overhauled:sandstonify",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 4,
       "element": {
         "location": "minecraft:village/desert/houses/desert_medium_house_2",
         "processors": "villages_overhauled:sandstonify",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_big_house_1",
         "processors": "villages_overhauled:sandstonify",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 2,
       "element": {
         "location": "minecraft:village/desert/houses/desert_animal_pen_1",
         "processors": "minecraft:empty",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 2,
       "element": {
         "location": "minecraft:village/desert/houses/desert_animal_pen_2",
         "processors": "minecraft:empty",
@@ -120,16 +120,25 @@
       }
     },
     {
-      "weight": 16,
+      "weight": 2,
       "element": {
-        "location": "minecraft:village/desert/houses/desert_farm_1",
+        "location": "minecraft:village/desert/houses/desert_animal_pen_3",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 32,
+      "weight": 8,
+      "element": {
+        "location": "minecraft:village/desert/houses/desert_farm_1",
+        "processors": "minecraft:farm_desert",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
       "element": {
         "location": "minecraft:village/desert/houses/desert_farm_2",
         "processors": "minecraft:empty",
@@ -138,7 +147,16 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/desert/houses/desert_farm_2",
+        "processors": "villages_overhauled:desert_farm_cactus",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_armorer_1",
         "processors": "villages_overhauled:sandstonify",
@@ -147,7 +165,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_butcher_shop_1",
         "processors": "villages_overhauled:sandstonify",
@@ -156,7 +174,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_cartographer_house_1",
         "processors": "villages_overhauled:sandstonify",
@@ -165,7 +183,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_library_1",
         "processors": "villages_overhauled:sandstonify",
@@ -174,16 +192,16 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_shepherd_house_1",
-        "processors": "villages_overhauled:sandstonify",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 8,
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_weaponsmith_1",
         "processors": "villages_overhauled:sandstonify",
@@ -192,7 +210,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_fletcher_house_1",
         "processors": "villages_overhauled:sandstonify",
@@ -201,7 +219,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_mason_1",
         "processors": "villages_overhauled:sandstonify",
@@ -210,7 +228,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_tannery_1",
         "processors": "villages_overhauled:sandstonify",
@@ -219,7 +237,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "minecraft:village/desert/houses/desert_temple_1",
         "processors": "villages_overhauled:sandstonify",
@@ -228,7 +246,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "minecraft:village/desert/houses/desert_temple_2",
         "processors": "villages_overhauled:sandstonify",
@@ -237,7 +255,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 3,
       "element": {
         "location": "minecraft:village/desert/houses/desert_toolsmith_1",
         "processors": "villages_overhauled:sandstonify",
