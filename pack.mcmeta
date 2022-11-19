@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 7,
-		"description": "Overhaul of the generation of villages."
+		"pack_format": 9,
+		"description": "Overhauls the generation of villages."
 	}
 }
