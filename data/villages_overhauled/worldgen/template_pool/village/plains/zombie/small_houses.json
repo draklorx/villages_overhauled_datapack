@@ -1,6 +1,6 @@
 {
     "name": "villages_overhauled:village/plains/zombie/small_houses",
-    "fallback": "minecraft:village/plains/zombie/terminators",
+    "fallback": "minecraft:village/plains/terminators",
     "elements": [
       {
         "weight": 2,
