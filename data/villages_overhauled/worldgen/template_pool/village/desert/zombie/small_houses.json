@@ -1,6 +1,6 @@
 {
     "name": "villages_overhauled:village/desert/small_houses",
-    "fallback": "minecraft:none",
+    "fallback": "minecraft:empty",
     "elements": [
       {
         "weight": 50,
