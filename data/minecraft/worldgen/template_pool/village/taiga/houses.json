@@ -271,12 +271,6 @@
           "projection": "rigid",
           "element_type": "minecraft:legacy_single_pool_element"
         }
-      },
-      {
-        "weight": 6,
-        "element": {
-          "element_type": "minecraft:empty_pool_element"
-        }
       }
     ]
   }

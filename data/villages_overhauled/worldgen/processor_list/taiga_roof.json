@@ -109,9 +109,20 @@
           },
           {
             "location_predicate": {
-              "predicate_type": "minecraft:random_block_match",
-              "block": "minecraft:cyan_carpet",
-              "probability": 0.5
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:green_carpet"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:moss_carpet"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:cyan_carpet"
             },
             "input_predicate": {
               "predicate_type": "minecraft:always_true"
