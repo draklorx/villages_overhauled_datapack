@@ -4,12 +4,12 @@
         "processor_type": "minecraft:rule",
         "rules": [
           {
-            "location_predicate": {
+            "input_predicate": {
               "predicate_type": "minecraft:random_block_match",
               "block": "minecraft:moss_carpet",
               "probability": 0.3
             },
-            "input_predicate": {
+            "location_predicate": {
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
@@ -17,12 +17,12 @@
             }
           },
           {
-            "location_predicate": {
+            "input_predicate": {
               "predicate_type": "minecraft:random_block_match",
               "block": "minecraft:moss_carpet",
               "probability": 0.2
             },
-            "input_predicate": {
+            "location_predicate": {
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
@@ -30,12 +30,12 @@
             }
           },
           {
-            "location_predicate": {
+            "input_predicate": {
               "predicate_type": "minecraft:random_block_match",
               "block": "minecraft:moss_carpet",
               "probability": 0.5
             },
-            "input_predicate": {
+            "location_predicate": {
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
@@ -43,88 +43,11 @@
             }
           },
           {
-            "location_predicate": {
-              "predicate_type": "minecraft:random_block_match",
-              "block": "minecraft:green_carpet",
-              "probability": 0.3
-            },
             "input_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:tall_grass"
-            }
-          },
-          {
-            "location_predicate": {
-              "predicate_type": "minecraft:random_block_match",
-              "block": "minecraft:green_carpet",
-              "probability": 0.2
-            },
-            "input_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:large_fern"
-            }
-          },
-          {
-            "location_predicate": {
-              "predicate_type": "minecraft:random_block_match",
-              "block": "minecraft:green_carpet",
-              "probability": 0.3
-            },
-            "input_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:grass"
-            }
-          },
-          {
-            "location_predicate": {
-              "predicate_type": "minecraft:random_block_match",
-              "block": "minecraft:green_carpet",
-              "probability": 0.2
-            },
-            "input_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:fern"
-            }
-          },
-          {
-            "location_predicate": {
-              "predicate_type": "minecraft:random_block_match",
-              "block": "minecraft:green_carpet",
-              "probability": 0.5
-            },
-            "input_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:air"
-            }
-          },
-          {
-            "location_predicate": {
-              "predicate_type": "minecraft:block_match",
-              "block": "minecraft:green_carpet"
-            },
-            "input_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:moss_carpet"
-            }
-          },
-          {
-            "location_predicate": {
               "predicate_type": "minecraft:block_match",
               "block": "minecraft:cyan_carpet"
             },
-            "input_predicate": {
+            "location_predicate": {
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
