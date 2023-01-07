@@ -149,7 +149,7 @@
       {
         "weight": 1,
         "element": {
-          "location": "minecraft:village/taiga/houses/taiga_armorer_house_1",
+          "location": "minecraft:village/taiga/houses/taiga_armorer_2",
           "processors": "villages_overhauled:taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:legacy_single_pool_element"
@@ -192,12 +192,30 @@
         }
       },
       {
-        "weight": 2,
+        "weight": 1,
         "element": {
           "location": "minecraft:village/taiga/houses/taiga_masons_house_1",
           "processors": "villages_overhauled:taiga_roof",
           "projection": "rigid",
-          "element_type": "minecraft:legacy_single_pool_element"
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/houses/taiga_masons_house_1",
+          "processors": "villages_overhauled:taiga_mason_andesite",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/houses/taiga_masons_house_1",
+          "processors": "villages_overhauled:taiga_mason_diorite",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
         }
       },
       {
@@ -212,7 +230,7 @@
       {
         "weight": 2,
         "element": {
-          "location": "minecraft:village/taiga/houses/taiga_weaponsmith_2",
+          "location": "minecraft:village/taiga/houses/taiga_stable_1",
           "processors": "villages_overhauled:taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:legacy_single_pool_element"
@@ -228,55 +246,37 @@
         }
       },
       {
-        "weight": 20,
+        "weight": 30,
         "element": {
-          "location": "minecraft:village/plains/houses/plains_large_farm_1",
-          "processors": "minecraft:empty",
+          "location": "minecraft:village/taiga/houses/taiga_large_farm_1",
+          "processors": "villages_overhauled:taiga_farm_pumpkins",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
       },
       {
-        "weight": 20,
+        "weight": 30,
         "element": {
-          "location": "minecraft:village/plains/houses/plains_large_farm_1",
-          "processors": "villages_overhauled:plains_farm_beets",
+          "location": "minecraft:village/taiga/houses/taiga_large_farm_1",
+          "processors": "villages_overhauled:taiga_farm_berries",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
       },
       {
-        "weight": 20,
+        "weight": 23,
         "element": {
-          "location": "minecraft:village/plains/houses/plains_large_farm_1",
-          "processors": "villages_overhauled:plains_farm_potatoes",
+          "location": "minecraft:village/taiga/houses/taiga_small_farm_1",
+          "processors": "villages_overhauled:taiga_farm_pumpkins",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
       },
       {
-        "weight": 15,
+        "weight": 23,
         "element": {
-          "location": "minecraft:village/plains/houses/plains_small_farm_1",
-          "processors": "minecraft:empty",
-          "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
-      },
-      {
-        "weight": 15,
-        "element": {
-          "location": "minecraft:village/plains/houses/plains_small_farm_1",
-          "processors": "villages_overhauled:plains_farm_beets",
-          "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
-      },
-      {
-        "weight": 15,
-        "element": {
-          "location": "minecraft:village/plains/houses/plains_small_farm_1",
-          "processors": "villages_overhauled:plains_farm_potatoes",
+          "location": "minecraft:village/taiga/houses/taiga_small_farm_1",
+          "processors": "villages_overhauled:taiga_farm_berries",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
