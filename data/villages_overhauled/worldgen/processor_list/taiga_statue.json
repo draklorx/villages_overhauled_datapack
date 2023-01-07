@@ -44,8 +44,9 @@
           },
           {
             "input_predicate": {
-              "predicate_type": "minecraft:always_true",
-              "block": "minecraft:gray_wool"
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:gray_wool",
+              "probability": 1
             },
             "location_predicate": {
               "predicate_type": "minecraft:always_true"
