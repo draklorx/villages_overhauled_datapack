@@ -38,6 +38,30 @@
                   0
                 ]
               }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:mud",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:muddy_mangrove_roots",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
             }
           ]
         }

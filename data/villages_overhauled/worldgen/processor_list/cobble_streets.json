@@ -22,17 +22,11 @@
             "block": "minecraft:water"
           },
           "input_predicate": {
-            "predicate_type": "minecraft:blockstate_match",
-            "block_state": {
-              "Name": "minecraft:mossy_cobblestone_slab",
-              "Properties": {
-                "type": "double",
-                "waterlogged": "false"
-              }
-            }
+            "predicate_type": "minecraft:block_match",
+            "block":  "minecraft:gravel"
           },
           "output_state": {
-            "Name": "minecraft:mossy_stone_bricks"
+            "Name": "minecraft:cracked_stone_bricks"
           }
         },
         {
@@ -42,10 +36,36 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:block_match",
-            "block":  "minecraft:gravel"
+            "block":  "minecraft:cobblestone"
           },
           "output_state": {
-            "Name": "minecraft:mossy_cobblestone"
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block":  "minecraft:mossy_cobblestone"
+          },
+          "output_state": {
+            "Name": "minecraft:stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block":  "minecraft:andesite_slab"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
           }
         }
       ]
