@@ -62,6 +62,30 @@
                   0
                 ]
               }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:coarse_dirt",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:podzol",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
             }
           ]
         }
