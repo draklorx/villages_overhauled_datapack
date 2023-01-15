@@ -12,6 +12,25 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sweet_berry_bush",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:pumpkin_stem",
+            "Properties": {
+              "age": "4"
+            }
+          }
+        },
+        {
+          "position_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:carrots",
             "probability": 0.5
           },
@@ -31,6 +50,21 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:block_match",
+            "block": "minecraft:sweet_berry_bush"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "position_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
             "block": "minecraft:carrots"
           },
           "output_state": {
@@ -38,29 +72,33 @@
           }
         },
         {
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:cobblestone",
-            "probability": 0.20
+          "position_predicate": {
+            "predicate_type": "minecraft:always_true"
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:oak_fence"
+          },
           "output_state": {
-            "Name": "minecraft:gravel"
+            "Name": "minecraft:air"
           }
         },
         {
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:cobblestone",
-            "probability": 0.15
+          "position_predicate": {
+            "predicate_type": "minecraft:always_true"
           },
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
           },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:oak_trapdoor"
+          },
           "output_state": {
-            "Name": "minecraft:andesite"
+            "Name": "minecraft:air"
           }
         }
       ]
