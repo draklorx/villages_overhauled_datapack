@@ -264,37 +264,37 @@
         }
       },
       {
-        "weight": 30,
+        "weight": 5,
         "element": {
           "location": "minecraft:village/taiga/houses/taiga_large_farm_1",
-          "processors": "villages_overhauled:taiga_farm_pumpkins",
+          "processors": "villages_overhauled:snowy_taiga_farm_pumpkins",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
       },
       {
-        "weight": 30,
+        "weight": 5,
         "element": {
           "location": "minecraft:village/taiga/houses/taiga_large_farm_1",
-          "processors": "villages_overhauled:taiga_farm_berries",
+          "processors": "villages_overhauled:snowy_taiga_farm_berries",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
       },
       {
-        "weight": 23,
+        "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/houses/taiga_small_farm_1",
-          "processors": "villages_overhauled:taiga_farm_pumpkins",
+          "processors": "villages_overhauled:snowy_taiga_farm_pumpkins",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
       },
       {
-        "weight": 23,
+        "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/houses/taiga_small_farm_1",
-          "processors": "villages_overhauled:taiga_farm_berries",
+          "processors": "villages_overhauled:snowy_taiga_farm_berries",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
