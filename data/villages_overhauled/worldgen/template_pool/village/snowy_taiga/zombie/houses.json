@@ -1,12 +1,12 @@
 {
-    "name": "minecraft:village/taiga/zombie/houses",
-    "fallback": "minecraft:village/taiga/terminators",
+    "name": "minecraft:village/snowy_taiga/zombie/houses",
+    "fallback": "minecraft:village/snowy/terminators",
     "elements": [
       {
         "weight": 4,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_house_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -15,7 +15,7 @@
         "weight": 4,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_house_2",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -24,7 +24,7 @@
         "weight": 4,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_house_3",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -33,7 +33,7 @@
         "weight": 4,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_house_4",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -42,7 +42,7 @@
         "weight": 4,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_house_5",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -51,7 +51,7 @@
         "weight": 4,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_house_6",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -60,7 +60,7 @@
         "weight": 4,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_house_7",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -69,7 +69,7 @@
         "weight": 4,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_house_8",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -78,7 +78,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_medium_house_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -87,7 +87,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_medium_house_2",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -96,7 +96,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_medium_house_3",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -105,7 +105,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_medium_house_4",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -114,7 +114,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_butcher_shop_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -123,7 +123,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_tool_smith_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -132,7 +132,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_fletcher_house_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -141,7 +141,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_shepherds_house_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -150,7 +150,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_armorer_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -159,7 +159,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_armorer_2",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -168,7 +168,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_fisher_cottage_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -177,7 +177,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_tannery_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -186,7 +186,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_cartographer_house_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -195,7 +195,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_library_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -204,7 +204,7 @@
         "weight": 1,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_masons_house_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -213,7 +213,7 @@
         "weight": 1,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_masons_house_1",
-          "processors": "villages_overhauled:taiga_mason_andesite",
+          "processors": "villages_overhauled:snowy_taiga_mason_andesite",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -222,7 +222,7 @@
         "weight": 1,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_masons_house_1",
-          "processors": "villages_overhauled:taiga_mason_diorite",
+          "processors": "villages_overhauled:snowy_taiga_mason_diorite",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -231,7 +231,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_weaponsmith_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -240,7 +240,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_weaponsmith_2",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -249,7 +249,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_stable_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -258,7 +258,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_temple_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -267,7 +267,7 @@
         "weight": 5,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_large_farm_1",
-          "processors": "villages_overhauled:taiga_farm_pumpkins",
+          "processors": "villages_overhauled:snowy_taiga_farm_pumpkins",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -276,7 +276,7 @@
         "weight": 5,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_large_farm_1",
-          "processors": "villages_overhauled:taiga_farm_berries",
+          "processors": "villages_overhauled:snowy_taiga_farm_berries",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -285,7 +285,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_farm_1",
-          "processors": "villages_overhauled:taiga_farm_pumpkins",
+          "processors": "villages_overhauled:snowy_taiga_farm_pumpkins",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -294,7 +294,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_small_farm_1",
-          "processors": "villages_overhauled:taiga_farm_berries",
+          "processors": "villages_overhauled:snowy_taiga_farm_berries",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
@@ -303,7 +303,7 @@
         "weight": 2,
         "element": {
           "location": "minecraft:village/taiga/zombie/houses/taiga_animal_pen_1",
-          "processors": "villages_overhauled:taiga_roof",
+          "processors": "villages_overhauled:snowy_taiga_roof",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
