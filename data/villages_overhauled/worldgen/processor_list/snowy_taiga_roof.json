@@ -14,7 +14,7 @@
             "output_state": {
               "Name": "minecraft:snow",
               "Properties": {
-                "layers": "4"
+                "layers": "2"
               }
             }
           },
@@ -29,7 +29,7 @@
             "output_state": {
               "Name": "minecraft:snow",
               "Properties": {
-                "layers": "4"
+                "layers": "2"
               }
             }
           },
@@ -44,7 +44,7 @@
             "output_state": {
               "Name": "minecraft:snow",
               "Properties": {
-                "layers": "4"
+                "layers": "2"
               }
             }
           },
@@ -64,7 +64,7 @@
             "output_state": {
               "Name": "minecraft:snow",
               "Properties": {
-                "layers": "4"
+                "layers": "2"
               }
             }
           },
@@ -84,7 +84,7 @@
               "output_state": {
                 "Name": "minecraft:snow",
                 "Properties": {
-                  "layers": "4"
+                  "layers": "2"
                 }
               }
           },
@@ -157,7 +157,7 @@
             "output_state": {
               "Name": "minecraft:snow",
               "Properties": {
-                "layers": "4"
+                "layers": "2"
               }
             }
           }
